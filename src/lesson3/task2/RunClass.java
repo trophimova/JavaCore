@@ -8,10 +8,10 @@ public class RunClass {
         Apple[] apples = new Apple[10];
         ArrayList<Apple> applesList = new ArrayList<>(10);
 
-        Apple apple0 = new Apple(86);
-        Apple apple1 = new Apple(86);
-        Apple apple2 = new Apple(86);
-        Apple apple3 = new Apple(86);
+        Apple apple0 = new Apple(8);
+        Apple apple1 = new Apple(8);
+        Apple apple2 = new Apple(8);
+        Apple apple3 = new Apple(8);
         apples[0] = apple0;
         applesList.add(apple0);
         apples[1] = apple1;
@@ -33,7 +33,7 @@ public class RunClass {
         applesList2.add(apple2);
         apples2[3] = apple3;
         applesList2.add(apple3);
-        Apple apple4 = new Apple(86);
+        Apple apple4 = new Apple(8);
         apples2[4] = apple4;
         Box<Apple> box2 = new Box<>(apples2, applesList2);
 
